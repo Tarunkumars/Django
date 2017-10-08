@@ -1,0 +1,21 @@
+{% load i18n %}
+{% load url from future %}
+
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"  href="{% url "knowledge_index" %}">
+          {% trans "Welcome to Knowledge Base" %}</a>
+        </div>
+      </div>
+    </nav>
+
+<div class="dk-roof">
+  <h4>{% trans "Search for answers to your questions below, or ask your own." %}</h4>
+</div>

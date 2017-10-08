@@ -1,0 +1,102 @@
+body{
+   color: #333;
+    background-color: #f5f8fa;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal !important;
+    color: #333;
+    font-size: 1.0em!important;
+}
+.navbar-header a{
+    color:#fff !important;
+    text-decoration: none !important;
+}
+.navbar-inverse {
+    background-color: #3097D1;
+    border-color: #3097D1;
+  }
+
+.dk-inner .dk-search input.question-search{
+  font-size:14px;
+  height:36px;
+ }
+
+ .dk-inner .dk-search .submit-question-search{
+    background-color: #007bff;
+    background-image:none;
+    border-color:#007bff;
+    text-shadow: none;
+ }
+ .dk-inner .dk-search{
+     background: rgba(218, 206, 206, 0.04);
+ }
+  .dk-inner .dk-search .submit-question-search:hover{
+     background-color: #fff;
+     color:#007bff;
+     background-image:none;
+    border-color:#4d7bad;
+  }
+  .dk-inner .dk-content .dk-widget .dk-dialog .the-author.gravatar img{
+    border-radius:12px;
+  }
+  .dk-inner .dk-content .dk-widget{
+      background: rgba(255, 255, 255, 0.9);
+  }
+
+  .question-list a,  .dk-sidebar .inner a{
+     text-transform: capitalize;
+     text-decoration:none;
+     font-size: 15px;
+     word-wrap: break-word;
+  }
+  .dk-dialog .the-content  h2, .the-content h5{
+    text-transform: capitalize;
+  }
+  .the-content p{
+    font-size:13px;
+    text-transform: capitalize;
+  }
+
+  .dk-sidebar .inner{
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 14px 13px !important;
+    border-radius: 10px;
+  }
+  .dk-inner .dk-content .dk-widget form.dk-form .field-wrapper .field-label label{
+    font-size:16px;
+    font-weight:100;
+  }
+  .form-footer input{
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 5px;
+    color: #fff;
+    height: 40px;
+    border-style: none;
+  }
+  .dk-inner .dk-content .dk-widget .dk-dialog .the-author.gravatar.smaller img{
+    margin-top: 0;
+    max-width: 60px;
+    max-height: 60px;
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+    margin-left: 0px;
+  }
+
+  .form-footer .submit-question:hover{
+     background-color: #fff;
+     color:#28a745;
+     background-image:none;
+     border: 1px solid #28a745;
+  }
+
+  .dk-inner .dk-content .dk-widget form.dk-form .form-footer input.submit-question{
+      font-size: 15px;
+  }
+
+
+
